@@ -1,0 +1,15 @@
+==Usage==
+usage: python main.py <algorithm_code> <memory_size> <access_file>
+
+algorithm_code: {0, 1, 2} (for FIFO, Second-Chance, and LRU respectively)
+memory_size: positive integer
+access_file: filename of a text file for page accesses
+
+example: 
+  python main.py 0 3 access.txt
+  
+==Author==
+Shichao An
+
+==Licensing==
+BSD License
